@@ -112,3 +112,30 @@ font-size: 40px;
         margin-top: 48px;
     }
 }
+/* About the Game */
+.title-wrapper{
+background: #102b40;
+}
+.title-container{
+    padding-bottom: 16px;
+}
+.about-text{
+color: #ffeede;
+}
+.about-subtitle{
+font-size: 24px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.about-subtitle{
+font-size: 32px;
+}
+.span{
+font-size: 24px;
+}
+.desk{
+    display: block;
+}
+}
