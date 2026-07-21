@@ -294,3 +294,62 @@ text-align: center;
 text-align: center;
 }    
 }
+/* Reviews */
+.reviews-section {
+    background-image: url("/img/reviews/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 394px;
+height: 1370px;
+}
+
+.reviews-list {
+    display: flex;
+flex-direction: column;
+align-items: center;
+    gap: 32px;
+}
+
+.reviews-item {
+border-radius: 8px;
+    padding: 16px;
+    width: 333px;
+    height: auto;
+    background: #3f5e7c;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.reviews-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.reviews-item-text {
+    font-size: 12px;
+    text-align: left;
+color: #ffeede;
+}
+
+@media only screen and (min-width: 1440px) {
+    .reviews-section {
+        background-image: url("/img/reviews/desk.png");
+        background-size: 100% 810px;
+height: 1270px;
+    }
+
+    .reviews-list {
+        flex-direction: row;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .reviews-item {
+        width: 210px;
+        height: 108px;
+        gap: 16px;
+    }
+}
