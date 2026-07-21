@@ -42,7 +42,7 @@ function createCharactersSwiper() {
   charactersSwiper = new Swiper(slider, {
     modules: [Autoplay],
 
-    slidesPerView: 1.2,
+    slidesPerView: 1.3,
     spaceBetween: 16,
 
     loop: true,
